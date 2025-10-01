@@ -1,0 +1,16 @@
+# NexusQuant Core Configuration
+project:
+  name: "NexusQuant"
+  version: "0.1.0-alpha"
+
+database:
+  postgres:
+    host: "localhost"
+    port: 5432
+    database: "nexusquant_db"
+    username: "nexus_admin"
+
+data_sources:
+  tushare:
+    token: "YOUR_TUSHARE_TOKEN"
+    enabled: true
